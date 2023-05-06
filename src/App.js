@@ -18,8 +18,8 @@ export default function App() {
        <h2>px to rem converter</h2>
        <div>
          <input style={{width:'70px'}} type="text"  onChange={handleInput} placeholder="enter pixel"/>
-         <button onClick={handleSubmit}>convert</button>
-         <h1>{convert}<span>rem</span></h1>
+         <button style={{backgroundColor:"yellow"}}onClick={handleSubmit}>convert</button>
+         <h3>{convert}<span>rem</span></h3>
        </div>
     </div>
   );
